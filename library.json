@@ -1,0 +1,23 @@
+{
+  "name": "Energesis_IO",
+  "version": "0.1.0",
+  "keywords": ["Bus", "I2C"],
+  "description": "This is a helper library to abstract away transactions using standard interfaces like I2C, SPI, etc.",
+  "authors":
+  [
+    {
+      "name": "Jose Guerra Carmenate",
+      "email": "joseguerracarmenate@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Energesis-Ingenieria/Energesis_IO.git"
+  },
+  "license": "Apache-2.0",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": ["Energesis_I2CDevice.h"]
+}
